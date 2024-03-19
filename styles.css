@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header {
+    height: 7rem;
+    background-color: lightblue;
+}
+
+nav, main, aside {
+    height: 15rem;
+}
+
+nav {
+    background-color: lightcoral;
+}
+
+main {
+    background-color: aquamarine;
+}
+
+aside {
+    background-color: yellow;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 15rem 1fr;
+        height: 100vh;
+    }
+    
+    header {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    nav, main, aside {
+        height: unset;
+    }
+}*/
+/*
+body{
+    display: grid;
+        grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "main main main"
+        "main main main"
+        "main main main"
+        "footer footer footer" 
+    ;
+    height: 100vh;
+    gap: 10px;
+}
+aside{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+body {
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "aside nav nav nav"
+        "aside main main main"
+        "aside main main main"
+        "aside main main main"
+        "aside main main main"
+        "aside main main main"
+        "aside main main main"
+        "aside main main main"
+        "aside main main main"
+        "footer footer footer footer" 
+    ;
+    height: 100vh;
+    gap: 10px;
+}
+aside {
+    display: unset;
+}
+}
+
+
+header {
+    grid-area: header;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    grid-area: nav;
+    background-color: peachpuff;
+    color: white;
+    text-align: center;
+}
+
+main {
+    grid-area: main;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+aside {
+    grid-area: aside;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+*/
+
+body{
+    display: grid;
+        grid-template-areas:
+        "header header menubar"
+        "header header menubar"
+        "image1 image1 image1"
+        "image1 image1 image1"
+        "image1 image1 image1"
+        "image1 image1 image1"
+        "image2 image2 image2"
+        "image2 image2 image2"
+        "image2 image2 image2" 
+        "image2 image2 image2"
+        "image2 image2 image2"
+        "image2 image2 image2"
+        "image2 image2 image2"
+        "image2 image2 image2"
+        "image2 image2 image2"
+        "image3 image3 image3"
+        "image3 image3 image3"
+        "image3 image3 image3"
+    ;
+    height: 100vh;
+    grid-gap: 10px;
+    border: 50px solid white;
+}
+
+#menubar {
+    max-height:50px;
+}
+
+header {
+    grid-area: header;
+    background-color: white;
+    color: black;
+    text-align: left;
+    max-height: 20px;
+}
+
+main {
+    grid-area: menubar;
+    max-height: 10px;
+    max-width: 70px;
+    max-height: 50px;
+    border: 10px solid white;
+}
+
+image1 {
+    grid-area: image1;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 10px solid white;
+}
+
+nav {
+    grid-area: nav;
+    background-color: peachpuff;
+    color: white;
+    text-align: center;
+    display: none;
+    border: 10px solid white;
+}
+
+image2 {
+    grid-area: image2;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border: 10px solid white;
+}
+
+image3 {
+    grid-area: image3;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border: 10px solid white;
+}
+
+image4 {
+    grid-area: image4;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    display: none;
+}
+image5 {
+    grid-area: image5;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    display: none;
+}
+image6 {
+    grid-area: image6;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    display: none;
+}
+
+image7 {
+    grid-area: image7;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    display: none;
+}
